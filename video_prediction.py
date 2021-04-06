@@ -83,7 +83,7 @@ while True:
 
 	#Displaying the output on screen
 	cv2.imshow("Output", output_frame)
-	key = cv2.waitKey(1) & 0xFF
+	key = cv2.waitKey(20) & 0xFF
 
 	
 	if key == ord("q"):
